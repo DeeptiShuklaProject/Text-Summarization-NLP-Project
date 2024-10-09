@@ -9,3 +9,24 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> Path(path)
 WindowsPath('config/config.yaml')
 >>>
+
+
+(base) D:\Text-Summarization-NLP-Project>python
+Python 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from pathlib import Path
+>>> path = "config/config.yaml"
+>>> Path(path)
+WindowsPath('config/config.yaml')
+>>> exit()
+
+(base) D:\Text-Summarization-NLP-Project>python
+Python 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import os
+>>> path = "config/config.yaml"
+>>> os.path.split(path)
+('config', 'config.yaml')
+
+
+SRC_REPO = "textSummarizer"(under the folder of Source folder)
